@@ -36,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/chali/TBC/Selenium-HomeWork/SeleniumHW",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chali/TBC/Selenium-HomeWork/SeleniumHW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.C:/Users/chali/TBC/Selenium-final-project/SeleniumFinal/src/test/java/testng.xml">
     <configuration name="C:/Users/chali/TBC/Selenium-final-project/SeleniumFinal/src/test/java/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="INSERT-TASK-HERE" />
@@ -90,7 +90,8 @@
       <workItem from="1682784912987" duration="3289000" />
       <workItem from="1682859428189" duration="5622000" />
       <workItem from="1682873208706" duration="1639000" />
-      <workItem from="1682947232131" duration="9110000" />
+      <workItem from="1682947232131" duration="9430000" />
+      <workItem from="1682957750596" duration="1666000" />
     </task>
     <servers />
   </component>

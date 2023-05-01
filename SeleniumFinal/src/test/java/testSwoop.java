@@ -71,6 +71,12 @@ public class testSwoop {
         caveaEastPoint.click();
         String selectedCinema = caveaEastPoint.getText();
 
+        List<WebElement> dates = driver.findElements(By.xpath("//ul[@class='tabs ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all']"));
+        List<WebElement> lis = dates.get(0).findElements(By.tagName("li"));
+
+        //აქ მიბეჭდავს სწორ ელემენტს მაგრამ არ ეჭირება და მაგიტო არ ვირჩევ ბოლო ელემენტს ყველანაირი სელექტორი ვცადე მარა მემგონი სხვა პრობლემაა რაღაცა
+        System.out.println(lis.get(lis.size()-1).findElement(By.cssSelector("a")).getAttribute("id"));
+
         String movieName = driver.findElement(By.xpath("//p[@class = 'name']")).getText();
         String xpathCinemaName = "//div[@class ='calendar-tabs ui-tabs ui-widget ui-widget-content ui-corner-all']//div[@aria-hidden='false' and @aria-expanded='true']//a/p[text()='კავეა ისთ ფოინთი']";
 
